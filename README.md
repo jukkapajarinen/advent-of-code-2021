@@ -1,39 +1,39 @@
 # Advent of Code 2021 🎄
 
-My Advent of Code solutions for the [year 2021](https://adventofcode.com/2021) written in JavaScript.
+My Advent of Code solutions for the [year 2021](https://adventofcode.com/2021) written in PHP.
 
-- [day-01/main.js](./day-01/main.js) 🌟🌟 (Sonar Sweep)
-- [day-02/main.js](./day-02/main.js) 🌟🌟 (Dive!)
-- [day-03/main.js](./day-03/main.js) 🚧 (Binary Diagnostic)
-- ~~day-04/main.js~~
-- ~~day-05/main.js~~
-- ~~day-06/main.js~~
-- ~~day-07/main.js~~
-- ~~day-08/main.js~~
-- ~~day-09/main.js~~
-- ~~day-10/main.js~~
-- ~~day-11/main.js~~
-- ~~day-12/main.js~~
-- ~~day-13/main.js~~
-- ~~day-14/main.js~~
-- ~~day-15/main.js~~
-- ~~day-16/main.js~~
-- ~~day-17/main.js~~
-- ~~day-18/main.js~~
-- ~~day-19/main.js~~
-- ~~day-20/main.js~~
-- ~~day-21/main.js~~
-- ~~day-22/main.js~~
-- ~~day-23/main.js~~
-- ~~day-24/main.js~~
-- ~~day-25/main.js~~
+- [day-01/main.php](./day-01/main.php) 🌟🌟 (Sonar Sweep)
+- [day-02/main.php](./day-02/main.php) 🌟🌟 (Dive!)
+- [day-03/main.php](./day-03/main.php) 🚧 (Binary Diagnostic)
+- ~~day-04/main.php~~
+- ~~day-05/main.php~~
+- ~~day-06/main.php~~
+- ~~day-07/main.php~~
+- ~~day-08/main.php~~
+- ~~day-09/main.php~~
+- ~~day-10/main.php~~
+- ~~day-11/main.php~~
+- ~~day-12/main.php~~
+- ~~day-13/main.php~~
+- ~~day-14/main.php~~
+- ~~day-15/main.php~~
+- ~~day-16/main.php~~
+- ~~day-17/main.php~~
+- ~~day-18/main.php~~
+- ~~day-19/main.php~~
+- ~~day-20/main.php~~
+- ~~day-21/main.php~~
+- ~~day-22/main.php~~
+- ~~day-23/main.php~~
+- ~~day-24/main.php~~
+- ~~day-25/main.php~~
 
 ## How to run?
 
-Use `node` to run the solutions. (replace `day-dd` with e.g `day-04`)
+Use `php` to run the solutions. (replace `day-dd` with e.g `day-04`)
 
 ```
-node day-dd/main.js
+php day-dd/main.php
 ```
 
 ## License
