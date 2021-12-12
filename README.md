@@ -6,14 +6,14 @@ My Advent of Code solutions for the [year 2021](https://adventofcode.com/2021) w
 - [day-02/main.php](./day-02/main.php) 🌟🌟 (Dive!)
 - [day-03/main.php](./day-03/main.php) 🌟🌟 (Binary Diagnostic)
 - [day-04/main.php](./day-04/main.php) 🚧 (Giant Squid)
-- ~~day-05/main.php~~
-- ~~day-06/main.php~~
-- ~~day-07/main.php~~
-- ~~day-08/main.php~~
-- ~~day-09/main.php~~
-- ~~day-10/main.php~~
-- ~~day-11/main.php~~
-- ~~day-12/main.php~~
+- [day-05/main.php](./day-05/main.php) 🚧 (Hydrothermal Venture)
+- [day-06/main.php](./day-06/main.php) 🚧 (Lanternfish)
+- [day-07/main.php](./day-07/main.php) 🚧 (The Treachery of Whales)
+- [day-08/main.php](./day-08/main.php) 🚧 (Seven Segment Search)
+- [day-09/main.php](./day-09/main.php) 🚧 (Smoke Basin)
+- [day-10/main.php](./day-10/main.php) 🚧 (Syntax Scoring)
+- [day-11/main.php](./day-11/main.php) 🚧 (Dumbo Octopus)
+- [day-12/main.php](./day-12/main.php) 🚧 (Passage Pathing)
 - ~~day-13/main.php~~
 - ~~day-14/main.php~~
 - ~~day-15/main.php~~
