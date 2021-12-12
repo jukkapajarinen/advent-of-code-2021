@@ -12,8 +12,28 @@ foreach ($rows as $idx => $row) {
 }
 $gamma = array_map(fn($x) => $x > count($rows)/2 ? 1 : 0, $sums);
 $epsilon = array_map(fn($x) => $x === 1 ? 0 : 1, $gamma);
-$gdec = bindec(implode($gamma));
-$edec = bindec(implode($epsilon));
+$powerConsumption = bindec(implode($gamma)) * bindec(implode($epsilon));
 
-printf("Power consumption: %s (part 1)\n", $gdec * $edec);
-printf("Another something: %s (part 2)\n", 2);
+$find_ones = fn($arr, $idx) => count(array_filter($arr, fn($x) => substr($x, $idx, 1) === "1"));
+$find_zeroes = fn($arr, $idx) => count(array_filter($arr, fn($x) => substr($x, $idx, 1) === "0"));
+list($oxygen, $scrubber, $oKeeps, $sKeeps) = ["", "", $rows, $rows];
+for ($i = 0; $i < strlen($rows[0]); $i++) {
+  $oBit = $find_ones($oKeeps, $i) >= $find_zeroes($oKeeps, $i) ? "1" : "0";
+  $sBit = $find_ones($sKeeps, $i) < $find_zeroes($sKeeps, $i) ? "1" : "0";
+  $oKeeps = array_filter($oKeeps, fn($row) => substr($row, $i, 1) === $oBit);
+  $sKeeps = array_filter($sKeeps, fn($row) => substr($row, $i, 1) === $sBit);
+  printf("%s) possible oxygens: %s, scrubbers: %s\n", $i+1, count($oKeeps), count($sKeeps));
+
+  if ($oxygen === "" && count($oKeeps) === 1) {
+    $oxygen = array_values($oKeeps)[0];
+    printf("\n => Oxygen is: %s\n\n", $oxygen);
+  }
+  if ($scrubber === "" && count($sKeeps) === 1) {
+    $scrubber = array_values($sKeeps)[0];
+    printf("\n => Scrubber is: %s\n\n", $scrubber);
+  }
+}
+$lifeSupport = bindec($oxygen) * bindec($scrubber);
+
+printf("Power consumption: %s (part 1)\n", $powerConsumption);
+printf("Life support rating: %s (part 2)\n", $lifeSupport);

@@ -4,7 +4,7 @@ My Advent of Code solutions for the [year 2021](https://adventofcode.com/2021) w
 
 - [day-01/main.php](./day-01/main.php) 🌟🌟 (Sonar Sweep)
 - [day-02/main.php](./day-02/main.php) 🌟🌟 (Dive!)
-- [day-03/main.php](./day-03/main.php) 🌟 (Binary Diagnostic)
+- [day-03/main.php](./day-03/main.php) 🌟🌟 (Binary Diagnostic)
 - ~~day-04/main.php~~
 - ~~day-05/main.php~~
 - ~~day-06/main.php~~
